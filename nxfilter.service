@@ -1,0 +1,8 @@
+Description=Start nxfilter
+
+[Service]
+Type=oneshot
+ExecStart=/etc/nxfilter/bin/startup.sh
+
+[Install]
+WantedBy=multi-user.target
